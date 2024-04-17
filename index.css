@@ -10,7 +10,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 370px 1fr;
     align-content: center;
-    background-image: url(../images/pexels-photo-925743.jpeg);
+    background-image: url(./images/pexels-photo-925743.jpeg);
     background-size: cover;
     background-position: center;
     grid-template-areas:
