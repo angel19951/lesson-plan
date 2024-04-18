@@ -8,7 +8,7 @@ body {
 .lessonPlanContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 370px 1fr;
+    grid-template-rows: 150px 370px 125px 1fr;
     align-content: center;
     background-image: url(./images/pexels-photo-925743.jpeg);
     background-size: cover;
@@ -16,7 +16,8 @@ body {
     grid-template-areas:
         "lessonPlanHeaderArea lessonPlanHeaderArea"
         "lessonPlanBreakdownArea funFactArea"
-        "lessonPlanBreakdownArea attendanceQuestionArea";
+        "lessonPlanBreakdownArea attendanceQuestionArea"
+        "thingsToKnowArea thingsToKnowArea";
     height: 100%;
     width: 100%;
     height: 102vh;
@@ -71,6 +72,11 @@ body {
     grid-area: attendanceQuestionArea;
     height: 100%;
     width: 100%;
+    font-size: 30px;
+}
+
+.thingsToKnowArea {
+    grid-area: thingsToKnowArea;
     font-size: 30px;
 }
 
