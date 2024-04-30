@@ -7,7 +7,7 @@ function displayDate() {
 
     // Get the current date, month, and year
     var day = today.getDate();
-    var month = today.getMonth() + 1;
+    var month = today.getMonth();
     var year = today.getFullYear();
     var monthString = '';
     switch (month) {
