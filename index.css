@@ -59,6 +59,7 @@ body {
     grid-area: lessonPlanBreakdownArea;
     height: 100%;
     width: 100%;
+    margin-left:10px;
 }
 
 .funFactArea {
